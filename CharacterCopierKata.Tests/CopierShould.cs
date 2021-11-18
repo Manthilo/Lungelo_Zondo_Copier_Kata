@@ -29,7 +29,7 @@ namespace CharacterCopierKata.Tests
 
         }
         [Fact]
-        public void WhenCopyingSingleCharacter1()
+        public void WhenCopyingMultipleCharacters()
         {
             var iSource = Substitute.For<ISource>();
             var iDestination = Substitute.For<IDestination>();
