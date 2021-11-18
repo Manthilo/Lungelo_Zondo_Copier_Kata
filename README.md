@@ -1,6 +1,6 @@
 # Character copier kata
 
-Kata to practice test the  understanding NSubstitute, write a character copier class that reads characters from a
+Kata to test the  understanding NSubstitute, write a character copier class that reads characters from a
 source and copies them to a destination. It must copy and write one character at a time.
 
 
