@@ -57,46 +57,6 @@ namespace CharacterCopierKata.Tests
 
         }
 
-        /*  calculator
-      .Add(Arg.Any<int>(), Arg.Any<int>())
-      .Returns(x => (int) x[0] + (int) x[1]);
-
-
-          /*[Fact]
-          public void WhenCopyingMultipleCharacters()
-          {
-              ;
-              var iDestination = Substitute.For<IDestination>();
-
-
-              var iSource = Substitute.For<ISource>();
-              char[] myChar = {',' };
-              string myText = "w,w,u,/n";
-              string[] charsToPrint = myText.Split(myChar);
-
-              for (int i = 0; i < myText.Length(); i++)
-              {
-                    char 
-                      iSource.When(x => x.ReadChar(Arg.Any<char>())
-                        .Returns('w', 'w', 'u'));
-
-                      var Copier = new Copier(iSource, iDestination);
-
-                      Copier.Copy();
-
-
-
-              }
-
-                  iDestination.Received(1).WriteChar('w');
-                  iDestination.Received(2).WriteChar('w');
-                  iDestination.Received(3).WriteChar('u');
-
-              }
-
-
-
-          }*/
 
 
     }
